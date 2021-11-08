@@ -7,4 +7,5 @@
     <color name="colorTextSecondary">#757575</color>
     <color name="colorDivider">#BDBDBD</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="black">#0A0707</color>
 </resources>

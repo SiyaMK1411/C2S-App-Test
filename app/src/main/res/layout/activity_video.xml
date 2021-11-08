@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".video">
+    tools:context=".MainActivity">
+
     <LinearLayout
         android:layout_height="match_parent"
         android:layout_width="match_parent"
@@ -27,7 +26,7 @@
                 <ImageView
                     android:layout_width="90sp"
                     android:layout_height="90sp"
-                    android:src="@drawable/ic_video"
+                    android:src="@drawable/img"
                     android:padding="4sp"></ImageView>
 
                 <TextView
@@ -35,7 +34,6 @@
                     android:layout_height="match_parent"
                     android:text="Self Defence Tips and Tricks"
                     android:textSize="30sp"
-
                     android:layout_gravity="center"
                     android:textAlignment="center"
                     android:paddingTop="18sp" />
@@ -198,9 +196,6 @@
         </GridLayout>
     </LinearLayout>
 
-
-
-
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -210,5 +205,4 @@
         app:itemIconTint="@drawable/selector"
         app:menu="@menu/menu_navigation"
         android:layout_alignParentBottom="true"/>
-
-</LinearLayout>
+</ScrollView>
